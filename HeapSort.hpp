@@ -1,13 +1,13 @@
 #ifndef HEAPSORT_HPP
 #define HEAPSORT_HPP
 
-#include "ISorted.hpp"
+#include "ISorter.hpp"
 #include "DynamicArray.hpp"
 
 #include <iostream>
 
 template <class T>
-class HeapSort : public ISorted<T> {
+class HeapSort : public ISorter<T> {
 private:
     void SiftDown(int n, int i, Sequence<T>* sequence, int (*cmp)(const T&, const T&, bool), bool ascending) {
         int largest = i; // Индекс корня поддерева

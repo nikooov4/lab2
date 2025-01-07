@@ -55,6 +55,7 @@
         "cstdarg": "cpp",
         "format": "cpp",
         "span": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "filesystem": "cpp"
     }
 }

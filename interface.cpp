@@ -1,4 +1,4 @@
-#include "ISorted.hpp"
+#include "ISorter.hpp"
 #include "PersonComparator.hpp"
 #include "dataCreator.hpp"   
 #include "DynamicArray.hpp"  

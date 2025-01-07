@@ -1,11 +1,11 @@
 #ifndef MERGESORT_HPP
 #define MERGESORT_HPP
 
-#include "ISorted.hpp"
+#include "ISorter.hpp"
 #include "DynamicArray.hpp"
 
 template <class T>
-class MergeSort : public ISorted<T> {
+class MergeSort : public ISorter<T> {
 private:
     void Merge(Sequence<T>& seq, int left, int mid, int right, int (*cmp)(const T&, const T&, bool), bool ascending) {
         int n1 = mid - left + 1;

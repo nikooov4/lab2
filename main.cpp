@@ -1,6 +1,6 @@
 #include "interface.hpp"
 #include "DynamicArray.hpp"
-#include "ISorted.hpp"
+#include "ISorter.hpp"
 #include "MergeSort.hpp"
 #include "dataCreator.hpp"
 

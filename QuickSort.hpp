@@ -1,11 +1,11 @@
 #ifndef QUICKSORT_HPP
 #define QUICKSORT_HPP
 
-#include "ISorted.hpp"
+#include "ISorter.hpp"
 #include "DynamicArray.hpp"
 
 template <class T>
-class QuickSort : public ISorted<T> {
+class QuickSort : public ISorter<T> {
 private:
     int Separation(Sequence<T>& sequence, int low, int high, int (*cmp)(const T&, const T&, bool), bool ascending) {
         // Выбор опорного элемента (медиана из трех)
